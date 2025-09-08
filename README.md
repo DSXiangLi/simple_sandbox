@@ -1,8 +1,10 @@
 # LLM Python Code Sandbox
 
-![logo](./asset/logo.png)
+| Logo                                       | Description   |
+|--------------------------------------------|---------------|
+| <img src="./asset/logo.png" width="500px"> |这是一个适合LLM使用的Python代码沙箱HTTP服务，可以创建独立的Python执行环境，并支持代码执行、文件上传下载等功能。集成了MCP支持。
+|
 
-这是一个适合LLM使用的Python代码沙箱HTTP服务，可以创建独立的Python执行环境，并支持代码执行、文件上传下载等功能。现在还集成了MCP（Model Context Protocol）支持，使AI模型能够直接调用这些API。
 
 ## 功能特性
 
@@ -195,3 +197,6 @@ GET /health
 - 沙箱会占用系统资源，请确保在不使用时关闭沙箱
 - 文件操作有安全限制，只能访问沙箱工作目录内的文件
 - 默认情况下，服务监听所有网络接口(0.0.0.0)，在生产环境中请根据需要调整
+
+-------
+Tips：README系AI生成，如有错漏请提issue~
